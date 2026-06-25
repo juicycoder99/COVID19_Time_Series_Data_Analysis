@@ -1,14 +1,9 @@
-# Programming Languages for Data Analysis (CS405) — Assignment 1
-
-Coursework for **Programming Languages for Data Analysis (CS405)**, Department of Computer Science,
-Bishop's University.
-
-## COVID-19 data analysis with pandas
+# COVID-19 Time-Series Data Analysis with pandas
 
 Loading and reshaping the Johns Hopkins CSSE global confirmed-cases time series
 (`time_series_covid19_confirmed_global.csv`) and analysing China's provincial data with pandas.
 
-The solution is in [`Covid19_Assignment_1.ipynb`](Covid19_Assignment_1.ipynb).
+The implementation is in [`covid19_pandas_analysis.ipynb`](covid19_pandas_analysis.ipynb).
 
 ## Steps
 
@@ -25,13 +20,13 @@ The solution is in [`Covid19_Assignment_1.ipynb`](Covid19_Assignment_1.ipynb).
 
 ```bash
 pip install pandas
-jupyter notebook Covid19_Assignment_1.ipynb
+jupyter notebook covid19_pandas_analysis.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Covid19_Assignment_1.ipynb` | Full solution |
-| `Covid19_Assignement_1_Student_version_2.pdf` | Assignment description |
+| `covid19_pandas_analysis.ipynb` | Full implementation and analysis |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
 | `time_series_covid19_confirmed_global.csv` | Source dataset (JHU CSSE) |
